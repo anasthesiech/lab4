@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="900dp"
+    android:background="#CFC6A9"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/android_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_weight="1"
+        android:scaleType="centerInside"
+        android:src="@drawable/a" />
+
+    <TextView
+        android:id="@+id/status_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="1dp"
+        android:text="Я отримав 2 з Програмування для мобільних платформ :("
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        />
+    <TextView
+        android:id="@+id/status_text_view_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="1dp"
+        android:text="Питаєте чому? Все тому що я не зробив лабораторну під номером №"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:hint="Введіть номер лабораторної"
+        android:inputType="textMultiLine"
+        android:minHeight="48dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Як думаєте, сказати про це мамі?"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        />
+    <CheckBox
+        android:id="@+id/checkBoxOne"
+        android:layout_marginLeft="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ні, бо вона не пустить гуляти на вихідних" />
+    <CheckBox
+        android:id="@+id/checkBoxTwo"
+        android:layout_marginLeft="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Сказати, що нам нічого не задавали" />
+    <CheckBox
+        android:id="@+id/checkBoxThree"
+        android:layout_marginLeft="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Сказати правду і пообіцяти виправити оцінку" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:text="А що робити з оцінкою?"
+        android:textColor="@color/black"
+        android:textSize="21sp"
+        />
+    <CheckBox
+        android:id="@+id/checkBoxFour"
+        android:layout_marginLeft="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Взяти роботу у відмінника" />
+    <CheckBox
+        android:id="@+id/checkBoxFive"
+        android:layout_marginLeft="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Попросити перездати самому" />
+    <CheckBox
+        android:id="@+id/checkBoxSix"
+        android:layout_marginLeft="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Забити до сесії" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:onClick="timeUp"
+        android:text="Що буде далі?" />
+</LinearLayout>
+</ScrollView>
